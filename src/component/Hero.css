@@ -1,0 +1,275 @@
+.hero {
+    display:  flex;
+    justify-content: space-between;
+    
+}
+.hero-blur{
+   width:20rem; 
+   height: 20rem;
+   left: 4rem;
+   top: 2rem;
+}
+
+.left-h
+{
+    padding: 1.5rem;
+    
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+}
+
+
+.the-best-ad{
+    margin-top: 1rem;
+    background: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 20px ;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1;
+}
+.the-best-ad>span{
+z-index: 2;
+
+}
+
+.the-best-ad>div{
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left:8px; 
+    border-radius: 3rem;
+    z-index: 1;
+
+}
+
+.hero-text{
+    display:  flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 3.4rem;
+    color: white;
+    font-weight: bold;
+    /* Inherite */
+    text-overflow: inherit;
+}
+.hero-text>div:nth-of-type(3)
+{
+font-size: 1rem;
+font-weight: 200;
+text-transform: initial;
+letter-spacing: 1px;
+width: 80%;
+
+}
+.figure{
+    display: flex;
+    gap: 2;
+}
+.figure>div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px ;
+
+}
+
+.figure>div>span:nth-of-type(1)
+{
+
+    font-size: 2rem;
+    color:white; 
+}
+.figure>div>span:nth-of-type(2)
+{
+
+    text-transform: uppercase;
+    /* text-transform: none; */
+    color:var(--gray); 
+}
+
+.hero-btn{
+display: flex;
+
+
+}
+button{
+    border: none;
+    margin: 0.5rem;
+    padding:0.5rem;
+    color: white;
+    width: 8rem;
+    font-weight: bold;
+
+}
+#btn-start{
+background-color: var(--orange);
+}
+#btn-learn{
+    background-color: transparent;
+    border: 2px var(--orange) solid;
+
+}
+
+.right-h{
+    box-sizing: border-box;
+    flex: 1;
+    position: relative;
+    background: var(--orange);
+}
+
+#join-btn{
+position: absolute;
+right: 2rem;
+top: 3rem;
+    color: black;
+}
+
+
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    background-color: #363d42e7;
+    padding: 1rem;
+    color:var(--gray);
+    padding: 1rem;
+    position: absolute;
+    right: 10%;
+    top: 20vh;
+    border-radius: 5px;
+}
+
+.heart-rate>img{
+    height: 3rem;
+    width: 2.5rem;
+}
+.heart-rate>span:nth-of-type(2)
+{
+    color: white;
+    font-size: 1.5rem;
+}
+.kcal-graph{
+   display: flex;
+    background-color: #363d42b0;
+    padding: 0.5rem;
+    color:var(--gray);
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+    position: absolute;
+ 
+    bottom: 0rem;
+    border-radius: 5px;
+}
+
+.kcal-graph>img{
+    padding-top: 10px;
+    padding-right:20px;
+    width: 70px;
+    height: 100px;
+}
+
+.kcal-graph>div>span:last-child{
+    color: white;
+    display: block;
+    font-size: 2rem;
+}
+.hero-img>img:last-child{
+    position: absolute;
+    top: 10rem;
+    z-index: 2;
+    right: 8rem;
+    width: 23rem;
+}
+.hero-img>img:first-child{
+    position: absolute;
+    top: 5rem;
+    left: -10rem;
+    z-index:  1;
+    width: 15rem;
+}
+
+
+@media screen and (max-width:768px){
+     .hero{
+        display: flex;
+        flex-direction: column;
+     }
+    .the-best-ad{
+        margin-top: -1rem;
+        font-size:small;
+        padding: 1rem;
+    }
+    .logo{
+        width: 5rem;
+        height: 2rem;
+    }
+    .header-menu{
+        flex-direction: column;
+        padding: 10px 15px ;
+        
+        z-index: 1;
+        background-color: var(--appColor);
+    }
+    .hero-text{
+        font-size:2rem;
+    }
+    .hero-text>div>:nth-child(1)span:nth-child(1) {
+        font-size: 2rem;
+    }
+    span>.paragrap{
+         font-size: medium;
+         letter-spacing: 1px;
+    } 
+   .right-h{
+    background:none;
+    position: relative;
+    display: flex;
+
+   }
+   .heart-rate{
+    width: 5rem;
+    left: 1rem;
+    top:2rem; 
+   }
+   .kcal-graph{
+    display: none;
+    position: relative;
+    top: 20rem;
+    left: 2rem;
+
+   }
+   .kcal-graph>img{
+    width: 2rem;
+   }
+   .kcal-graph>div>span:nth-of-type(2)
+   {
+    color: white;
+    font-size: 1rem;
+
+   }
+   .hero-img>img:last-child {
+    position: relative;
+    width: 15rem;
+    left: 8rem;
+    top:6rem; 
+    align-self: center;
+   }
+   .hero-img>img:first-child{
+    position: absolute;
+    height: 20rem;
+    width: auto;
+    top: 7rem; 
+    left: 2rem; 
+    z-index: -1;
+}
+
+}

@@ -1,0 +1,132 @@
+.prise{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 5rem; */
+}
+.plans{
+  display:  flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center; 
+ padding: 2rem;
+ gap :3rem; 
+}
+.prise-blur{
+    width:20rem; 
+    height: 20rem;
+    left: 4rem;
+    /* top: 2rem; */
+}
+
+.prise-blur2{
+    width:20rem; 
+    height: 20rem;
+    right: 4rem;
+    /* top: 2rem; */
+}
+.plans>:nth-child(2)
+{
+    background: var(  --planCard);
+    transform: scale(1.2);
+     margin: 1rem;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title>span:nth-child(2)
+{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.plan {
+    background-color:#3c3f45;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    width: 16rem;
+    padding: 1rem;
+}
+.plan>svg{
+    height: 3rem;
+    width: 2rem;
+    fill:var(--orange)
+}
+.plan:nth-child(2)>svg{
+    fill:white;
+}
+.plan>:nth-child(2)
+{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.plan>:nth-child(3)
+{
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+
+.feature{
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+.more{
+    font-size: 1rem;
+    display: flex ;
+    /* justify-content: center; */
+    align-items: center;
+    gap: .5rem;
+    padding-top: 1rem;
+}
+.more>img{
+    height: 1rem;
+    width: 1.2rem;
+}
+.feature>img{
+    width: 1rem;
+    height: 1rem;
+}
+#j-btn{
+    margin:1.5rem  auto  2px;
+    width: 100%;
+    color: black;
+    font-weight:800;
+}
+.plan:nth-child(2)>.features>button
+{
+color: orange;
+}
+
+
+@media screen and (max-width:768px){
+.title{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.title>.Stroke-text{
+    font-size: 2rem;
+    padding: 10px;
+}
+.plans{
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.plans>:nth-child(2)
+{
+    transform: none;
+}
+
+}
+

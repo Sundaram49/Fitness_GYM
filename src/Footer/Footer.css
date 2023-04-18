@@ -1,0 +1,37 @@
+.footer{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-s>img{
+    width: 2rem;
+    margin: 2rem;
+    height: 2rem;
+}
+.logo>img{
+    width: 9rem;
+    height:2rem;
+
+}
+hr{
+    background: white;
+    height: 2px;
+    border: none;    
+    width: 100%;
+}
+.footer-blur{
+    width:40rem; 
+    height: 7rem;
+    filter: blur(12rem);
+    right: 7rem;
+}
+
+.footer-blur2{
+    width:40rem; 
+    height: 7rem;
+    filter: blur(12rem);
+    left: 7rem;
+}

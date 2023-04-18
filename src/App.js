@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Hero from './component/Hero';
+import Programs from './Programs/Programs';
+import Reason from './Reason/Reason';
+import Prise from './Prise/Prise';
+import Testimonials from './Testimonials/Testimonials';
+import Footer from './Footer/Footer';
+import Join from './Join/Join';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+<BrowserRouter>
+<Routes>
+{/* <Route path='/' element={<Hero/>}></Route>
+<Route path='/ /program' element={<Programs/>}></Route>
+<Route path='/reason' element={<Reason/>}></Route>
+<Route path='/prise' element={<Prise/>}></Route>
+<Route path='/testimonials' element={<Testimonials/>}></Route>
+<Route path='/join' element={<Join/>}></Route>
+<Route path='/footer' element={<Footer/>}></Route> */}
+
+</Routes>
+<Hero/>
+<Programs/>
+<Reason/>
+<Prise/>
+<Testimonials/>
+<Join/>
+<Footer/>
+</BrowserRouter>
   );
 }
 
