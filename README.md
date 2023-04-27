@@ -14,12 +14,12 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=200px src="swag.png" alt="Project logo"></a>
+ <img width=500px height=200px src="https://user-images.githubusercontent.com/86216867/234930489-44ac0356-1e74-46b1-a466-91d4e54c218f.png" alt="Project logo"></a>
 </p>
 
 
 
-<h3 align="center">Fitness GYM</h3>
+<h3 align="center">Fit Club GYM</h3>
 
 ---
 
@@ -92,8 +92,12 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## 🚀 Deployment <a name = "deployment"></a>
 Add additional notes about how to deploy this on a live system.
 
-## 🎈 Usage <a name="usage"></a>
-## ⛏️ Flow Chart <a name = "flowchart"></a>
+## 🎈 Usage <a name="usage">
+user Can Join through this website using join button and author get the mail of new join customer and all speciallyzation of the Gym every body  can see
+</a>
+## ⛏️ Flow Chart <a name = "flowchart">
+![image](https://user-images.githubusercontent.com/86216867/234936358-186437da-d835-4c33-9f53-aad5a5b26823.png)
+
 
 ![bg width:1000px](./swagindiaflowchart.png)
 
