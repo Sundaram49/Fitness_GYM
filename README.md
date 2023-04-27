@@ -12,11 +12,11 @@
 
 
 
-<h3 align="center">Swag India</h3>
+<h3 align="center">Fitness GYM</h3>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> This Website is Mobile and Desktop Friendly create With Reactjs 
     <br> 
 </p>
 
@@ -96,7 +96,7 @@ Add additional notes about how to deploy this on a live system.
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@SkillLymc](https://github.com/kylelobo) - FSD
+- [@Sundaram](https://github.com/Sundaram49) - FSD
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
