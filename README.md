@@ -1,8 +1,13 @@
 
 
 
+![Screenshot 2023-04-27 193704](https://user-images.githubusercontent.com/86216867/234928113-b72ecf35-0321-4962-a1db-22602152da68.png)
+![image](https://user-images.githubusercontent.com/86216867/234928802-89274c9b-421c-4846-9bec-c46960d2315f.png)
+![image](https://user-images.githubusercontent.com/86216867/234928831-f0ba5164-d6c6-40b5-bfb2-28c5c6251369.png)
+![image](https://user-images.githubusercontent.com/86216867/234928857-447f2aef-e4dc-4cfa-8f7e-776b2b24e74d.png)
 
-image.pngimage.png
+
+
 # Fitness GYM
 
 # project-documentation
