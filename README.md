@@ -108,6 +108,11 @@ user Can Join through this website using join button and author get the mail of 
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@Sundaram](https://github.com/Sundaram49) - FSD
+  
+  Here In author uses map function to check author deation using arrow button
+  
+  ![image](https://user-images.githubusercontent.com/86216867/234936979-219812c8-a553-47f6-8f42-e009cfeb781d.png)
+
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
